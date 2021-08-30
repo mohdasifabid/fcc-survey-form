@@ -1,3 +1,56 @@
 body {
-  background-color: skyblue;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: yellowgreen;
+}
+
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+  font-size: large;
+}
+#name {
+  display: block;
+  margin-top: 5px;
+}
+
+#email {
+  display: block;
+  margin-top: 5px;
+}
+#email-section {
+  margin-top: 15px;
+}
+#number {
+  display: block;
+  margin-top: 5px;
+}
+#number-section {
+  margin-top: 15px;
+}
+#dropdown {
+  display: block;
+}
+#dropdown-section {
+  margin-top: 15px;
+}
+/* .box-input {
+  display: block;
+} */
+#txt-area {
+  margin-top: 5px;
+  display: block;
+}
+#txt-area-section {
+  margin-top: 10px;
+}
+#submit {
+  margin-top: 20px;
 }
